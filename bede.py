@@ -97,7 +97,7 @@ def bede(img, layer, augmLum, augmSat, nbBilatBord, methodeDesatBord, supprParas
 register(
 	"python-fu-bede", # name
 	_(u'''Bédé
-# Si des points noirs vous gênent dans le résultat, essayez "anti-parasites" (Attention, ça donne généralement un mauvais résultat sur des bâtiments).
+# Si des points noirs vous gênent dans le résultat, essayez "anti-parasites".
 # Si des doubles traits vous gênent dans le résultat, essayez "luminosité" dans "méthode de désaturation des bords" (en diminuant un peu "suppression traits parasites").
 # Si des traits en escalier vous gênent dans le résultat, essayez "antialias à chaque applatissement" (en diminuant fort "antialias").
 # Si vous voulez des traits plus style ordinateur, mettez "antialias" à 0.
@@ -118,17 +118,14 @@ register(
 		(PF_SLIDER, "nbBilatBord", _(u"aplatissement pour bord (bilateral smooth)"), 2, (0,5,1)),
 		#~ (PF_OPTION, "methodeDesatBord", _(u"méthode de désaturation des bords", 1, ['clarté','luminosité','max RGB']),
 		#~ (PF_SLIDER, "supprParasite", _(u"suppression traits parasites", 12, (0,50,1)),
-		(PF_OPTION, "methodeDesatBord", _(u"méthode de désaturation des bords *"), 2, [_(u'clarté'),_(u'luminosité'),_(u'max RVB')]),
-		(PF_SLIDER, "supprParasite", _(u"suppression de traits parasites *"), 12, (0,50,1)),
-		#~ (PF_SLIDER, "forceTrait", _(u"force des traits", 50, (0,50,1)),
+		(PF_OPTION, "methodeDesatBord", _(u"méthode de désaturation des bords"), 2, [_(u'clarté'),_(u'luminosité'),_(u'max RVB')]),
+		(PF_SLIDER, "supprParasite", _(u"suppression de traits parasites"), 12, (0,50,1)),
 		(PF_SLIDER, "forceTrait", _(u"force des traits"), 49, (0,49,1)),
 		(PF_SLIDER, "nbBilatFinal", _(u"aplatissement final (bilateral smooth)"), 4, (0,10,1)),
-		(PF_ADJUSTMENT, "antialias", _(u"quantité d'antialias *"), 15, (0,100,1)),
+		(PF_ADJUSTMENT, "antialias", _(u"quantité d'antialias"), 15, (0,100,1)),
 		#~ (PF_ADJUSTMENT, "antialias", _(u"antialias"), 2, (0,100,1)),
-		(PF_TOGGLE, "antialiasChaque", _(u"antialias à chaque applatissement *"), False),
-		#~ (PF_TOGGLE, "antialiasChaque", _(u"antialias à chaque applatissement", True),
-		(PF_TOGGLE, "despeckle", _(u"anti-parasites *"), False),
-		#~ (PF_OPTION, "preset", _(u'présélection (écrase les paramètres marqués par "*")'), 0, [_(u'aucun'),_(u'animaux')]),
+		(PF_TOGGLE, "antialiasChaque", _(u"antialias à chaque applatissement"), False),
+		(PF_TOGGLE, "despeckle", _(u"anti-parasites"), False),
 	],
 	[],
 	bede,
