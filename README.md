@@ -16,6 +16,8 @@ Pour GIMP 2.10, copier le fichier "bede2.10.py" dans le répertoire indiqué dan
 
 ***Attention*** : Ne pas oublier d'autoriser ce fichier à être exécuté comme un programme.
 
+Redémarrer GIMP, le plugin devrait apparaître comme un menu "Filtres->Artistiques->Bédé...".
+
 ## Conseils
 - Si des points noirs vous gênent dans le résultat, essayez "anti-parasites".
 - Si des doubles traits vous gênent dans le résultat, essayez "luminosité" dans "méthode de désaturation des bords" (en diminuant un peu "suppression traits parasites").
