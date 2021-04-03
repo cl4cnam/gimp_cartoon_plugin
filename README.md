@@ -2,11 +2,17 @@
 Pour transformer une photo en style BD
 
 ## Prérequis
-- Gimp 2.8
-- gmic 1.7.9
+- GIMP 2.8
+- G'MIC 1.7.9
+
+ou bien
+- GIMP 2.10
+- G'MIC 2.9.6
 
 ## Installation
-Copier le fichier "bede.py" dans le répertoire ~/.gimp-2.8/plug-ins/
+Pour GIMP 2.8, copier le fichier "bede2.8.py" dans le répertoire ~/.gimp-2.8/plug-ins/.
+
+Pour GIMP 2.10, copier le fichier "bede2.10.py" dans le répertoire indiqué dans "Edition->Préférences->Dossiers->Scripts".
 
 ## Conseils
 - Si des points noirs vous gênent dans le résultat, essayez "anti-parasites".
