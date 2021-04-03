@@ -8,8 +8,12 @@ import os
 baseDir = os.path.expanduser('~/.gimpTranslation')
 
 import gettext
-t = gettext.translation("messages", baseDir)
-_ = t.lgettext
+try:
+	t = gettext.translation("gimp_bede", baseDir)
+	_ = t.lgettext
+except IOError:
+	print 'IOError problème traduction'
+	_ = lambda x: x
 
 def bd(img, layer, augmLum, augmSat, nbBilatBord, methodeDesatBord, supprParasite, forceTrait, nbBilatFinal, antialias, antialiasChaque, despeckle):
 	
@@ -119,7 +123,7 @@ register(
 	[],
 	bd,
 	menu="<Image>/Filters/Artistic",
-	domain=("messages", baseDir)
+	domain=("gimp_bede", baseDir)
 )
 
 main()
