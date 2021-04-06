@@ -38,8 +38,8 @@ Redémarrer GIMP, le plugin devrait apparaître comme un menu "Filtres->Artistiq
 ### Procédé pour les exemples :
 - rognage en carré,
 - réduction à 256 par 256,
-- application du filtre "Bédé".
+- application du filtre "Bédé" avec les paramètres par défaut.
 
 ### Procédé pour l'assemblage des images :
-- assemblage côte à côte
-- réduction de 50%
+- assemblage côte à côte,
+- réduction de 50%.
