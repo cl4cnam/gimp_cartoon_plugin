@@ -7,7 +7,7 @@ Pour transformer une photo en style BD
 
 ou bien
 - GIMP 2.10
-- G'MIC 2.9.6
+- G'MIC 2.9.7
 
 ## Installation
 Pour GIMP 2.8, copier le fichier "bede2.8.py" dans le répertoire ~/.gimp-2.8/plug-ins/.
