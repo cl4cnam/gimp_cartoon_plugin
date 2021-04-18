@@ -1,45 +1,45 @@
 # gimp_cartoon_plugin
-Pour transformer une photo en style BD
+To turn a photo into a cartoon image
 
-## Prérequis
+## Prerequisite
 - GIMP 2.8
 - G'MIC 1.7.9
 
-ou bien
+or
 - GIMP 2.10
 - G'MIC 2.9.7
 
-## Installation
-Pour GIMP 2.8, copier le fichier "bede2.8.py" dans le répertoire ~/.gimp-2.8/plug-ins/.
+## Install
+For GIMP 2.8, copy "bede2.8.py" into ~/.gimp-2.8/plug-ins/.
 
-Pour GIMP 2.10, copier le fichier "bede2.10.py" dans le répertoire indiqué dans "Edition->Préférences->Dossiers->Scripts".
+For GIMP 2.10, copy "bede2.10.py" into the folder indicated at "Edit->Preferences->Folders->Plug-ins".
 
-***Attention*** : Ne pas oublier d'autoriser ce fichier à être exécuté comme un programme.
+***Warning*** : Do not forget to allow this file to be exexcuted as a program.
 
-Redémarrer GIMP, le plugin devrait apparaître comme un menu "Filtres->Artistiques->Bédé...".
+Restart GIMP, the plugin should appear as a menu "Filters->Artistic->Bédé...".
 
-## Conseils
-- Si des points noirs vous gênent dans le résultat, essayez "anti-parasites".
-- Si des doubles traits vous gênent dans le résultat, essayez "luminosité" dans "méthode de désaturation des bords" (en diminuant un peu "suppression traits parasites").
-- Si des traits en escalier vous gênent dans le résultat, essayez "antialias à chaque applatissement" (en diminuant fort "antialias").
-- Si vous voulez des traits plus style ordinateur, mettez "antialias" à 0.
-- Si vous n'aimez pas le changement de couleur, mettez "augmentation saturation" à 0.
-- Si certaines couleurs ont déteint sur des zones voisines, essayez de diminuer "aplatissement final".
+## Tips
+- If black specks in outcome annoy, try "anti-parasites".
+- If double lines in outcome annoy, try "luminosité" in "méthode de désaturation des bords" (and reduce "suppression traits parasites" slightly).
+- If aliasing in outcome annoy, try "antialias à chaque applatissement" (and reduce "antialias" strongly).
+- If you want computer style line, set "antialias" to 0.
+- If you dislike color change, set "augmentation saturation" to 0.
+- If some color bleeds onto places around them, try to reduce "aplatissement final".
 
-## Exemples
-![Exemples](https://raw.githubusercontent.com/cl4cnam/gimp_cartoon_plugin/main/exemples/ExemplesBede2.png)
+## Examples
+![Examples](https://raw.githubusercontent.com/cl4cnam/gimp_cartoon_plugin/main/exemples/ExemplesBede2.png)
 
 ### Sources :
-- https://fr.wikipedia.org/wiki/Fichier:Elephants_at_Etosha_National_Park03.JPG (domaine public).
-- https://fr.wikipedia.org/wiki/Fichier:New_Zealand_Sea_Lion.jpg (domaine public).
-- https://fr.wikipedia.org/wiki/Fichier:Broek_in_waterland_077.JPG (domaine public).
-- https://fr.wikipedia.org/wiki/Fichier:Routemaster.JPG (domaine public).
+- https://fr.wikipedia.org/wiki/Fichier:Elephants_at_Etosha_National_Park03.JPG (public domain).
+- https://fr.wikipedia.org/wiki/Fichier:New_Zealand_Sea_Lion.jpg (public domain).
+- https://fr.wikipedia.org/wiki/Fichier:Broek_in_waterland_077.JPG (public domain).
+- https://fr.wikipedia.org/wiki/Fichier:Routemaster.JPG (public domain).
 
-### Procédé pour les exemples :
-- rognage en carré,
-- réduction à 256 par 256,
-- application du filtre "Bédé" avec les paramètres par défaut.
+### How have I produced the examples :
+- crop into a square shape,
+- reduce to 256 by 256 pixels,
+- apply "Bédé" filter with default parameters.
 
-### Procédé pour l'assemblage des images :
-- assemblage côte à côte,
-- réduction de 50%.
+### How have I put the examples together :
+- put them side by side,
+- reduce the outcome by 50%.
