@@ -18,6 +18,8 @@ For GIMP 2.10, copy "bede2.10.py" into the folder indicated at "Edit->Preference
 
 Restart GIMP, the plugin should appear as a menu "Filters->Artistic->Bédé...".
 
+On Windows, if the plugin does not work, delete the first line of the file "bede2.x.py" ("new line" character included).
+
 ## Tips
 - If black specks in outcome annoy, try "anti-parasites".
 - If double lines in outcome annoy, try "luminosité" in "méthode de désaturation des bords" (and reduce "suppression traits parasites" slightly).
