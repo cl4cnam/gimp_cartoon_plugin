@@ -1,6 +1,9 @@
 # gimp_cartoon_plugin
 Pour transformer une photo en style BD
 
+## Remarque
+Si vous avez G'MIC 2.9.8 ou plus récent, n'utilisez plus ce plugin mais plutôt "Filtres -> G'MIC-Qt... -> Artistic -> Comic Book".
+
 ## Prérequis
 - GIMP 2.8
 - G'MIC 1.7.9
