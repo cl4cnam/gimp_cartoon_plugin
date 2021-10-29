@@ -1,6 +1,9 @@
 # gimp_cartoon_plugin
 To turn a photo into a cartoon image
 
+## Note
+For G'MIC 2.9.8 and later, don't use this but use "Filters -> G'MIC-Qt -> Artistic -> Comic Book" (You have to have updated G'MIC filters by "ctrl-R").
+
 ## Prerequisite
 - GIMP 2.8
 - G'MIC 1.7.9
