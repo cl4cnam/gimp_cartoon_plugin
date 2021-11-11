@@ -4,6 +4,8 @@ Pour transformer une photo en style BD
 ## Remarque
 Si vous avez G'MIC 2.9.8 ou plus récent, n'utilisez plus ce plugin mais plutôt "Filtres -> G'MIC-Qt... -> Artistic -> Comic Book".
 (Vous devez avoir mis à jour les filtres G'MIC-Qt avec "ctrl-R")
+- Voir la vidéo de Miguel Pineau : https://www.youtube.com/watch?v=v9awRDuzDrk
+- Voir la vidéo de Michael en Allemand : https://www.youtube.com/watch?v=YGjcfiL1WpY
 
 ## Prérequis
 - GIMP 2.8
