@@ -3,6 +3,8 @@ To turn a photo into a cartoon image
 
 ## Note
 For G'MIC 2.9.8 and later, don't use this but use "Filters -> G'MIC-Qt -> Artistic -> Comic Book" (You have to have updated G'MIC filters by "ctrl-R").
+- See in German (by Michael) : https://www.youtube.com/watch?v=YGjcfiL1WpY
+- See in French (by Miguel Pineau) : https://www.youtube.com/watch?v=v9awRDuzDrk
 
 ## Prerequisite
 - GIMP 2.8
