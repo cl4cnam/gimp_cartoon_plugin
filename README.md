@@ -19,11 +19,13 @@ For GIMP 2.8, copy "bede2.8.py" into ~/.gimp-2.8/plug-ins/.
 
 For GIMP 2.10, copy "bede2.10.py" into the folder indicated at "Edit->Preferences->Folders->Plug-ins".
 
+For GIMP 2.10 and G'MIC 2.9.8 (or G'MIC 3.1.x), copy "bede2.10_GMIC2.9.8.py" into the folder indicated at "Edit->Preferences->Folders->Plug-ins".
+
 ***Warning*** : Do not forget to allow this file to be exexcuted as a program.
 
-Restart GIMP, the plugin should appear as a menu "Filters->Artistic->Bédé...".
+Restart GIMP, the plugin should appear as a menu "Filters->Artistic->Bédé..." or "Filters->Artistic->Simple Cartoon".
 
-On Windows, if the plugin does not work, delete the first line of the file "bede2.x.py" ("new line" character included).
+On Windows, if the plugin does not work, delete the first line of the file "bede2.x.py" ("#!/usr/bin/env python") ("new line" character included).
 
 ## Tips
 - If black specks in outcome annoy, try "anti-parasites".
