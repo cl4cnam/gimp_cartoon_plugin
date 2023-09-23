@@ -6,6 +6,8 @@ For G'MIC 2.9.8 and later, don't use this but use "Filters -> G'MIC-Qt -> Artist
 
 Video in [German](https://www.youtube.com/watch?v=YGjcfiL1WpY) (by Michael), in [French](https://www.youtube.com/watch?v=v9awRDuzDrk) (by Miguel Pineau), in [English](https://www.youtube.com/watch?v=s_wjVWi76Ow).
 
+You can also use it to make [cartoon film](https://www.youtube.com/watch?v=NS5Ih8ywboI).
+
 ## Prerequisite
 - GIMP 2.8
 - G'MIC 1.7.9
