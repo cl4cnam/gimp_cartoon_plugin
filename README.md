@@ -37,12 +37,18 @@ On Windows, if the plugin does not work, delete the first line of the file "bede
 
 ## Examples
 ![Examples](https://raw.githubusercontent.com/cl4cnam/gimp_cartoon_plugin/main/exemples/ExemplesBede2.png)
+![Examples](https://raw.githubusercontent.com/cl4cnam/gimp_cartoon_plugin/main/exemples/example.jpg)
 
-### Sources :
-- https://fr.wikipedia.org/wiki/Fichier:Elephants_at_Etosha_National_Park03.JPG (public domain).
-- https://fr.wikipedia.org/wiki/Fichier:New_Zealand_Sea_Lion.jpg (public domain).
-- https://fr.wikipedia.org/wiki/Fichier:Broek_in_waterland_077.JPG (public domain).
-- https://fr.wikipedia.org/wiki/Fichier:Routemaster.JPG (public domain).
+### Sources (all sources are public domain) :
+- [Elephant](https://fr.wikipedia.org/wiki/Fichier:Elephants_at_Etosha_National_Park03.JPG) (public domain),
+- [Sea lion](https://fr.wikipedia.org/wiki/Fichier:New_Zealand_Sea_Lion.jpg) (public domain),
+- [Broek in waterland](https://fr.wikipedia.org/wiki/Fichier:Broek_in_waterland_077.JPG) (public domain),
+- [Routemaster](https://fr.wikipedia.org/wiki/Fichier:Routemaster.JPG) (public domain),
+- [Giraffe](https://www.wpclipart.com/animals/G/giraffe/giraffe_photo.jpg.html),
+- [Goldfish](https://www.wpclipart.com/animals/aquatic/fish/G/goldfish/Goldfish_photo_2.jpg.html),
+- [King bolete](https://wpclipart.com/plants/mushroom/mushroom_photos/King_Boletus__Boletus_edulis.jpg.html),
+- [Kitten](https://www.wpclipart.com/animals/cats/cat_photos/kitten_white_sitting.jpg.html),
+- [Buttercup](https://www.wpclipart.com/plants/flowers/_B/buttercup/photos/Ranunculus_gramineus_blossom.jpg.html).
 
 ### How have I produced the examples :
 - crop into a square shape,
