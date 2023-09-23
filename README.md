@@ -3,8 +3,8 @@ To turn a photo into a cartoon image
 
 ## Note
 For G'MIC 2.9.8 and later, don't use this but use "Filters -> G'MIC-Qt -> Artistic -> Comic Book" (You have to have updated G'MIC filters by "ctrl-R").
-- See in German (by Michael) : https://www.youtube.com/watch?v=YGjcfiL1WpY
-- See in French (by Miguel Pineau) : https://www.youtube.com/watch?v=v9awRDuzDrk
+
+Video in [German](https://www.youtube.com/watch?v=YGjcfiL1WpY) (by Michael), in [French](https://www.youtube.com/watch?v=v9awRDuzDrk) (by Miguel Pineau), in [English](https://www.youtube.com/watch?v=s_wjVWi76Ow).
 
 ## Prerequisite
 - GIMP 2.8
@@ -39,22 +39,14 @@ On Windows, if the plugin does not work, delete the first line of the file "bede
 ![Examples](https://raw.githubusercontent.com/cl4cnam/gimp_cartoon_plugin/main/exemples/ExemplesBede2.png)
 ![Examples](https://raw.githubusercontent.com/cl4cnam/gimp_cartoon_plugin/main/exemples/example.jpg)
 
-### Sources (all sources are public domain) :
-- [Elephant](https://fr.wikipedia.org/wiki/Fichier:Elephants_at_Etosha_National_Park03.JPG) (public domain),
-- [Sea lion](https://fr.wikipedia.org/wiki/Fichier:New_Zealand_Sea_Lion.jpg) (public domain),
-- [Broek in waterland](https://fr.wikipedia.org/wiki/Fichier:Broek_in_waterland_077.JPG) (public domain),
-- [Routemaster](https://fr.wikipedia.org/wiki/Fichier:Routemaster.JPG) (public domain),
-- [Giraffe](https://www.wpclipart.com/animals/G/giraffe/giraffe_photo.jpg.html),
-- [Goldfish](https://www.wpclipart.com/animals/aquatic/fish/G/goldfish/Goldfish_photo_2.jpg.html),
-- [King bolete](https://wpclipart.com/plants/mushroom/mushroom_photos/King_Boletus__Boletus_edulis.jpg.html),
-- [Kitten](https://www.wpclipart.com/animals/cats/cat_photos/kitten_white_sitting.jpg.html),
-- [Buttercup](https://www.wpclipart.com/plants/flowers/_B/buttercup/photos/Ranunculus_gramineus_blossom.jpg.html).
+### Sources
+All sources are public domain: [Elephant](https://fr.wikipedia.org/wiki/Fichier:Elephants_at_Etosha_National_Park03.JPG), [Sea lion](https://fr.wikipedia.org/wiki/Fichier:New_Zealand_Sea_Lion.jpg), [Broek in waterland](https://fr.wikipedia.org/wiki/Fichier:Broek_in_waterland_077.JPG), [Routemaster](https://fr.wikipedia.org/wiki/Fichier:Routemaster.JPG), [Giraffe](https://www.wpclipart.com/animals/G/giraffe/giraffe_photo.jpg.html), [Goldfish](https://www.wpclipart.com/animals/aquatic/fish/G/goldfish/Goldfish_photo_2.jpg.html), [King bolete](https://wpclipart.com/plants/mushroom/mushroom_photos/King_Boletus__Boletus_edulis.jpg.html), [Kitten](https://www.wpclipart.com/animals/cats/cat_photos/kitten_white_sitting.jpg.html), [Buttercup](https://www.wpclipart.com/plants/flowers/_B/buttercup/photos/Ranunculus_gramineus_blossom.jpg.html).
 
-### How have I produced the examples :
+### How have I produced the first four examples :
 - crop into a square shape,
 - reduce to 256 by 256 pixels,
 - apply "Bédé" filter with default parameters.
 
-### How have I put the examples together :
+### How have I put the first four examples together :
 - put them side by side,
 - reduce the outcome by 50%.
