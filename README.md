@@ -8,6 +8,8 @@ Video in [German](https://www.youtube.com/watch?v=YGjcfiL1WpY) (by Michael), in 
 
 You can also use it to make [cartoon film](https://www.youtube.com/watch?v=NS5Ih8ywboI).
 
+This plugin is discussed [here](http://gimpchat.com/viewtopic.php?f=11&t=19335).
+
 ## Prerequisite
 - GIMP 2.8
 - G'MIC 1.7.9
